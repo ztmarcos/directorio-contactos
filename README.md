@@ -58,4 +58,4 @@ Requiere tabla `directorio_contactos` en MySQL con estos campos:
 ## 💰 Costo Estimado
 
 - Railway: $5-10/mes total
-- Base de datos incluida 
+- Base de datos incluida # Railway deployment fix - Fri May 30 17:56:02 CST 2025
