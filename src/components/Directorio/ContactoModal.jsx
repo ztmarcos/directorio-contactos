@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// CSS import temporarily removed
 
 const ContactoModal = ({ contacto, onSave, onClose }) => {
   const [formData, setFormData] = useState({

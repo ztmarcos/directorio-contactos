@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ContactoModal.css';
+// CSS import temporarily removed
 
 const ContactoModal = ({ contacto, onSave, onClose }) => {
   const [formData, setFormData] = useState({
@@ -401,4 +401,4 @@ const ContactoModal = ({ contacto, onSave, onClose }) => {
   );
 };
 
-export default ContactoModal; 
+export default ContactoModal; // Build timestamp: Fri May 30 14:13:49 CST 2025
