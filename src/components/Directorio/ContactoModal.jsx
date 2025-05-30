@@ -401,4 +401,4 @@ const ContactoModal = ({ contacto, onSave, onClose }) => {
   );
 };
 
-export default ContactoModal; 
+export default ContactoModal; // Build timestamp: Fri May 30 14:13:49 CST 2025
