@@ -9,10 +9,11 @@ COPY package*.json ./
 RUN npm install --only=production
 
 # Copy ONLY the files we need
-COPY simple-app.js ./
+COPY server.cjs ./
+COPY backend/ ./backend/
 
 # Expose port
 EXPOSE $PORT
 
-# Start the app with explicit file
-CMD ["node", "/app/simple-app.js"] 
+# Start the app with server.cjs
+CMD ["node", "server.cjs"] 
